@@ -1,0 +1,132 @@
+.w{
+    top: 0;
+    position: fixed;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.915);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 1000;
+}
+.v{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+}
+.v:hover{
+    color: red;
+}
+h2{
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+    margin: 0px 0px 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fff{
+    background-color: rgb(230, 228, 228);
+}
+.abc{
+    height: 50px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    /* border: 1px solid black; */
+    
+}
+li img{
+    width: 100%;
+    height: 30px;
+    filter: grayscale(100%);
+    /* border: 1px solid black; */
+}
+li .yt:hover{
+    content:url(./img/youtube1.png);
+}
+li .ig:hover{
+    content:url(./img/instagram1.png);
+    opacity: 1;
+}
+li .fb:hover{
+    content:url(./img/facebook1.png);
+}
+.con{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin: 0px 0px 20px 100px;
+}
+.c{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* 指向時更順 */
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.c:hover{
+    color: red;
+}
+/* 圖片放大 */
+.c img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    /* cursor: pointer; */
+}
+
+/* .product-card{
+    width: 300px;
+    background-color: white;
+       box-shadow: 0 2PX 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px;
+}
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 200%;
+    overflow: hidden;
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.product-card:hover .product-image img{
+    transform: scale(1.05);
+} */
+
+
+.c img{
+    width: 100%;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    height: 110px;
+}
+.p:hover{
+    color: red;
+}
+.def{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.904);
+}
